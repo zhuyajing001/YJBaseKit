@@ -14,6 +14,7 @@
 		DB60FA3E20AE5A6600BA6703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB60FA3C20AE5A6600BA6703 /* LaunchScreen.storyboard */; };
 		DB60FA4920AE5A6600BA6703 /* YJBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB60FA4820AE5A6600BA6703 /* YJBaseKitTests.swift */; };
 		DB60FA5420AE5A6600BA6703 /* YJBaseKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB60FA5320AE5A6600BA6703 /* YJBaseKitUITests.swift */; };
+		DBCC07BD20AE5CD7004F1E32 /* BaseMethodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCC07BC20AE5CD7004F1E32 /* BaseMethodButton.swift */; };
 		EC7F254A7A97E4E64486EF50 /* libPods-YJBaseKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D896509160E79089F11582 /* libPods-YJBaseKit.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		DB60FA4F20AE5A6600BA6703 /* YJBaseKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJBaseKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB60FA5320AE5A6600BA6703 /* YJBaseKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJBaseKitUITests.swift; sourceTree = "<group>"; };
 		DB60FA5520AE5A6600BA6703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCC07BC20AE5CD7004F1E32 /* BaseMethodButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMethodButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		DB60FA2720AE5A6500BA6703 = {
 			isa = PBXGroup;
 			children = (
+				DBCC07BB20AE5CD7004F1E32 /* Classes */,
 				DB60FA3220AE5A6500BA6703 /* YJBaseKit */,
 				DB60FA4720AE5A6600BA6703 /* YJBaseKitTests */,
 				DB60FA5220AE5A6600BA6703 /* YJBaseKitUITests */,
@@ -147,6 +150,14 @@
 				DB60FA5520AE5A6600BA6703 /* Info.plist */,
 			);
 			path = YJBaseKitUITests;
+			sourceTree = "<group>";
+		};
+		DBCC07BB20AE5CD7004F1E32 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DBCC07BC20AE5CD7004F1E32 /* BaseMethodButton.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB60FA3620AE5A6500BA6703 /* ViewController.swift in Sources */,
+				DBCC07BD20AE5CD7004F1E32 /* BaseMethodButton.swift in Sources */,
 				DB60FA3420AE5A6500BA6703 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
