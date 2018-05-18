@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "YJBaseKit"
   s.version      = "0.0.1"
-  s.summary      = "A short description of YJBaseKit."
+  s.summary      = "I use this to do what i useful to use"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   I do want to do this by my self
+                   I do want to do this by my self ,i also use this to do waht i want
                    DESC
 
   s.homepage     = "https://github.com/zhuyajing001/YJBaseKit"
